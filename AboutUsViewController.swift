@@ -23,7 +23,7 @@ class AboutUsViewController: UIViewController {
                 
                 self.webView.load(htmlData, mimeType: "text/html", textEncodingName: "UTF-8", baseURL: baseURL)
             }
-        }
+        } 
         
         
 

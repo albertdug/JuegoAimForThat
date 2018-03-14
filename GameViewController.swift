@@ -117,7 +117,7 @@ class GameViewController: UIViewController {
         self.slider.value = Float(self.currentValue)
         self.round += 1
     }
-    
+     
     func updateLables() {
         self.targetLabel.text = "\(self.targetValue)"
         self.scoreLabel.text = "\(self.score)"
